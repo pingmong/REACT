@@ -1,105 +1,104 @@
 /* LoginForm.css */
 
 .login-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .login-form-container {
-    background-color: rgba(255, 255, 255, 1);
-    border-radius: 5px;
-    padding: 100px 20px 100px 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-    position: relative;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  padding: 100px 20px 100px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  position: relative;
 }
 
 .login-title {
-    font-family: Inter;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 10px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: rgba(53, 61, 63, 1);
-
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 10px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(53, 61, 63, 1);
 }
 
 .login-title2 {
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 22px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: rgba(154, 154, 154, 1);
-
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(154, 154, 154, 1);
 }
 
 .login-account {
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 50px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: rgba(71, 71, 71, 1);
-
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(71, 71, 71, 1);
 }
 
 .login-forgot {
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 15px;
-    letter-spacing: 0em;
-    text-align: right;
-    color: rgba(53, 61, 63, 1);
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+  margin-left: 200px;
+  margin-bottom: 20px;
 
+  color: rgba(53, 61, 63, 1);
 }
 
 .login-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .login-input {
-    width: 90%;
-    padding: 11px;
-    margin-bottom: 10px;
-    border: 1px solid rgba(0, 70, 70, 0.2);
-    border-radius: 10px;
-    transition: border-color 0.3s ease-in-out; /* 트랜지션 효과 추가 */
-
+  width: 90%;
+  padding: 11px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(0, 70, 70, 0.2);
+  border-radius: 10px;
+  outline: none;
+  transition: border-color 1s ease-in-out; /* 트랜지션 효과 추가 */
+}
+.login-input:focus {
+  border-color: green;
 }
 
 .login-submit-button {
-    background: rgba(53, 61, 63, 1);
-    color: #fff;
-    border: none;
-    width: 100%;
-    padding: 15px 40px 15px 40px;
-    cursor: pointer;
-    border-radius: 10px;
+  background: rgba(53, 61, 63, 1);
+  color: #fff;
+  border: none;
+  width: 100%;
+  padding: 15px 40px 15px 40px;
+  cursor: pointer;
+  border-radius: 10px;
 }
 
 .error-message {
-    color: red;
-    margin-top: 10px;
+  color: red;
+  margin-top: 10px;
 }
 
 .login-signup {
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 15px;
-    letter-spacing: 0em;
-    text-align: center;
-    padding: 15px 40px 15px 40px;
-
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 15px 40px 15px 40px;
 }
