@@ -1,0 +1,10 @@
+.App {
+  max-width: 500px; /*[할 일 관리] 앱 페이지의 최대 너비*/
+  width: 100%; /* 페이지 너비를 브라우저 */
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 20px; /* 내부 여백 */
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
